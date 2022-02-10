@@ -17,7 +17,7 @@ var lizSimpleFilterLayer = function() {
             primaryKey: 'id',
 
             // Layer fields to add in the filter
-            fields: [ 'district_e', 'scale', 'fwuc', 'rehab_last', 'om_started'],
+            fields: [ 'district_e', 'scale', 'ds_filter', 'ws_filter', 'ds_ws_filter', 'fwuc', 'rehab_last', 'om_started'],
 			
             // To replace checkboxes with a select combobox, add the layers in the following select_fields array
             select_fields: ['district_e'],
